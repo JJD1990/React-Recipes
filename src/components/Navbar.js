@@ -6,7 +6,7 @@ import { ThemeContext } from '../context/ThemeContext'
 import { useTheme } from '../hooks/useTheme'
 
 function Navbar() {
-    const { color, changeColor } = useTheme()
+    const { color } = useTheme()
     return (
         <div className='navbar' style={{ background: color }}>
             <nav>
